@@ -107,11 +107,13 @@ Cấu hình Zabbix để theo dõi file `/var/log/fail2ban.log` và hiển thị
 
 *   **Bước 1.2: Đóng gói với Dockerfile**
     Sử dụng Image `php:8.2-apache` để tích hợp sẵn môi trường chạy Web.
-    > **![Ảnh 9](img/index.php.png)** Nội dung Dockerfile copy mã nguồn vào thư mục `/var/www/html/`.
+    > **![Ảnh 9](img/index.php.png)**
+    > Nội dung Dockerfile copy mã nguồn vào thư mục `/var/www/html/`.
 
 *   **Bước 1.3: Triển khai bằng Docker Compose**
     Sử dụng Docker Compose để quản lý cổng (Port 80) và ánh xạ thư mục log.
-    > **![Ảnh 8](/img/docker-compose.yml.png)** Cấu hình `docker-compose.yml`.
+    > **![Ảnh 8](/img/docker-compose.yml.png)**
+    > Cấu hình `docker-compose.yml`.
 
 ---
 

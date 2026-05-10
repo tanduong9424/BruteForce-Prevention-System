@@ -135,7 +135,7 @@ Cài đặt Zabbix Agent trên Web Server để gửi dữ liệu về Zabbix Se
     Chỉnh sửa file `zabbix_agentd.conf`, trỏ IP về Zabbix Server và đặt `Hostname` trùng khớp với cấu hình trên Web giao diện.
     > **![Ảnh 19](/img/zabbix_agent_1.png)** Cấu hình IP Zabbix Server.
 
-    > **![Ảnh 20](/img/zabbix_agent_2.png** Cấu hình Hostname cho Web Server.
+    > **![Ảnh 20](/img/zabbix_agent_2.png)** Cấu hình Hostname cho Web Server.
 
 ---
 

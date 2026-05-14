@@ -85,10 +85,12 @@ action = iptables-allports[name=my-docker-app, chain=DOCKER-USER]
  Định nghĩa biểu thức chính quy (Regex) trong file `my-docker-app.conf` để nhận diện các dòng log đăng nhập lỗi từ Docker.
  
 ![Ảnh 7](/img/Regex.png)
-  Cấu hình Regex bắt các request "POST" trả về mã "200" (xác thực sai).
+
+Cấu hình Regex bắt các request "POST" trả về mã "200" (xác thực sai).
   
 ![list banned ip](/img/listbanIP.png)
-  Hiển thị danh sách các IP bị ban
+
+Hiển thị danh sách các IP bị ban
 
 ### 3. Giám sát & Cảnh báo với Zabbix (Monitoring)
 Cấu hình Zabbix để theo dõi file `/var/log/fail2ban.log` và hiển thị cảnh báo.

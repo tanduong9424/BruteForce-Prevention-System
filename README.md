@@ -50,13 +50,13 @@ docker run -d -p 80:80 \
 **Đóng gói với Dockerfile**
   Sử dụng Image `php:8.2-apache` để tích hợp sẵn môi trường chạy Web.
   
-**![Ảnh 9](img/Dockerfile.png)** 
+![Ảnh 9](img/Dockerfile.png)
   Nội dung Dockerfile copy mã nguồn vào thư mục `/var/www/html/`.
 
 **Triển khai bằng Docker Compose**
   Sử dụng Docker Compose để quản lý cổng (Port 80) và ánh xạ thư mục log.
   
-**![Ảnh 8](/img/docker-compose.yml.png)** 
+![Ảnh 8](/img/docker-compose.yml.png)
   Cấu hình `docker-compose.yml`.
 
 ### 2. Ngăn chặn tự động với Fail2ban (IPS)

@@ -82,6 +82,7 @@ action = iptables-allports[name=my-docker-app, chain=DOCKER-USER]
 
 **Tạo bộ lọc (Filter)**
  Định nghĩa biểu thức chính quy (Regex) trong file `my-docker-app.conf` để nhận diện các dòng log đăng nhập lỗi từ Docker.
+ 
 **![Ảnh 7](/img/Regex.png)** 
 Cấu hình Regex bắt các request "POST" trả về mã "200" (xác thực sai).
 

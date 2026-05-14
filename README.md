@@ -3,7 +3,7 @@
 ## 📋 Giới thiệu tổng quan
 Dự án này triển khai một hệ thống bảo mật nhằm phát hiện, ngăn chặn và giám sát các cuộc tấn công **Brute-force Login** vào ứng dụng Web chạy trên nền tảng Docker.
 
-Video demo: https://www.youtube.com/watch?v=WFEvLWcn8W4
+Video demo: https://www.youtube.com/watch?v=CfIdjHtFCog
 
 Hệ thống kết hợp sức mạnh của:
 1. **Fail2ban (IPS)**: Tự động phân tích log và ngăn chặn IP tấn công.

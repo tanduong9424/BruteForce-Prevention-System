@@ -48,12 +48,14 @@ docker run -d -p 80:80 \
   Mã nguồn PHP xử lý xác thực và in ra thông báo lỗi.
 
 **Đóng gói với Dockerfile**
-  Sử dụng Image `php:8.2-apache` để tích hợp sẵn môi trường chạy Web.
+ Sử dụng Image `php:8.2-apache` để tích hợp sẵn môi trường chạy Web.
   
 ![Ảnh 9](img/Dockerfile.png)
-  Nội dung Dockerfile copy mã nguồn vào thư mục `/var/www/html/`.
 
-**Triển khai bằng Docker Compose**
+ Nội dung Dockerfile copy mã nguồn vào thư mục `/var/www/html/`.
+
+Triển khai bằng Docker Compose
+
   Sử dụng Docker Compose để quản lý cổng (Port 80) và ánh xạ thư mục log.
   
 ![Ảnh 8](/img/docker-compose.yml.png)
